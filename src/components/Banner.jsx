@@ -1,13 +1,10 @@
 function Banner() {
-    const header = document.createElement('header');
-    header.textContent = 'Orbit Report';
-
-    const paragraph = document.createElement('p');
-    paragraph.textContent = 'Click on the buttons to see the satellites in that orbit type';
-
-    header.appendChild(paragraph);
-
-    return header;
+    return (
+        <header>
+            <h1>Orbit Report</h1>
+            <p>Click on the buttons to see the satellites in that orbit type</p>
+        </header>
+    );
 }
 
 export default Banner;
